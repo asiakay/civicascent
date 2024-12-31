@@ -1,3 +1,16 @@
+/*
+  This is your site JavaScript code - you can add interactivity!
+*/
+
+// Print a message in the browser's dev tools console each time the page loads
+// Use your menus or right-click / control-click and choose "Inspect" > "Console"
+console.log("Welcome to Civic Ascent! Ready to empower your community? 🌟");
+
+/* 
+Make the "Click me!" button move when the visitor clicks it:
+- First add the button to the page by following the steps in the TODO 🚧
+*/
+// Countdown Timer for Limited-Time Offer
 // Countdown Timer Logic
 const countdownElement = document.getElementById("countdown-timer");
 const endDate = new Date("2024-12-31T23:59:59").getTime(); // Set your deadline
@@ -21,4 +34,3 @@ function updateCountdown() {
 // Update every second
 setInterval(updateCountdown, 1000);
 updateCountdown();
-
